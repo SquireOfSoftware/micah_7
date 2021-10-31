@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Micah 7 picture challenge, Nov 2021</title>
+	<link rel="shortcut icon" href="candle_edited.gif">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,100;1,500;1,800&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: Public Sans;
+		}
+		body {
+			margin: 0;
+			display: flex;
+			align-items: center;
+		}
+		img {
+			width: auto;
+			height: 100%;
+		}
+
+		@media (min-width: 1500px) {
+			img {
+				height: auto;
+				width: 100%;
+			}
+			#fixed_div {
+				top: 20%;
+			}
+		}
+
+		blockquote::before {
+			font-size: 2em;
+			content: "\201C";
+			line-height: 1em;
+		}
+		blockquote::after {
+			content: "\A - Micah 7:8";
+			font-size: 0.5em;
+			white-space: pre;
+			text-transform: uppercase;
+		}
+
+		blockquote {
+			/*font-family: Calibri;*/
+		}
+
+		#fixed_div {
+			position: fixed;
+			min-height: 40%;
+			width: 100%;
+			background-color: #ffffff4a;
+			text-align: center;
+		}
+		#verse {
+			color: black;
+			font-size: 3em;
+		}
+	</style>
+</head>
+<body>
+	<img src="son_doong_cave.jpeg" width="1536" height="1097"/>
+	<div id="fixed_div">
+		<blockquote id="verse" cite="https://www.biblegateway.com/passage/?search=Micah%207%3A8&version=NIV">
+			Do not gloat over me, my enemy!<br/>
+			Though I have fallen, <b>I will rise.</b><br/>
+			Though I sit in darkness,<br/>
+			<b>the LORD will be my light.</b>
+		</blockquote>
+		
+	</div>
+	<script>
+		window.addEventListener('load', function() {
+		    console.log('All assets are loaded');
+		    window.scroll(400,0);
+		})
+	</script>
+</body>
+</html>
